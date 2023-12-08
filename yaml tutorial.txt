@@ -1,0 +1,12 @@
+YAML INTRO:
+-----------
+-> YAML Ain't Markup Language
+-> data serialization language
+-> simple, human-readable, text-based language
+-> used for configuration files that made human to read easier
+-> it support for various data types like arrays,dictionaries,list
+-> file extension :- .yaml,.yml
+
+Data serialization:
+-------------------
+the process of converting data to  formate that could be easily stored or retrive data

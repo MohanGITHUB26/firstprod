@@ -1,0 +1,12 @@
+  
+1).Difference between unmetered SSD and unlimited SSD?
+
+ Both an unmetered SSD disk and an unlimited SSD disk can offer fast storage and performance for your data and applications. However, the main difference between the 
+two is in their usage restrictions.An unmetered SSD disk generally means that there is no set limit on the amount of data you can store, but there may be limitations 
+on the amount of data you can transfer or access during a certain time period. This can be useful for users who need to store large amounts of data and do not need to 
+access it all at once.An unlimited SSD disk, on the other hand, generally means that there are no usage restrictions on the amount of data you can store or access. 
+This can be useful for users who need to store and access large amounts of data frequently and without interruption.Ultimately, the choice between an unmetered SSD 
+disk and an unlimited SSD disk will depend on your specific needs and usage patterns. If you have high storage requirements and need to access your data frequently, 
+an unlimited SSD disk may be the better choice. If, on the other hand, you have high storage requirements but do not need to access your data frequently, an unmetered 
+SSD disk may be the better choice. 
+

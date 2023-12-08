@@ -1,0 +1,30 @@
+User-agent: GoogleBot-Mobile
+Allow: /
+
+User-agent: GoogleBot
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: yahoo-mmcrawler
+Allow: /
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: yahoo-blogs/v3.9
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow : /
+Disallow: /404.html
+Disallow: /temp/
+
+Sitemap: Https://redotsolutions.com/sitemap.xml

@@ -1,0 +1,127 @@
+class - 01 : >> (create and drop database)
+^^^^^^^^^^
+show dbs --> to show database 
+use newdb --> to create and use the database 
+db.newcollectio.insert({"name":"mohan"}) --> to create and insert the data in collection 
+db.dropDatabase() --> to drop database
+
+--------------------------------------
+class - 02 : >> (create and drop collections)
+^^^^^^^^^^
+db.createCollection("newcollection") --> to only create collections 
+db.newcollection.insert({"name":"mohan"}) --> to create and insert collection 
+show collections --> to show collections in database 
+db.newcollection.drop() --> to drop collections
+
+--------------------------------------
+class - 03 : >> (insert documents) 
+^^^^^^^^^^
+db.newcollection.insert(
+[
+{
+"name" : "mohan"
+},
+{
+"name" : "sanjeev"
+}
+]
+)
+
+--------------------------------------
+class - 04 : >> (query documents) 
+^^^^^^^^^^
+db.newcollection.find()
+db.newcollection.find().pretty()
+db.newcollection.find({"age":"24"}).pretty()
+db.newcollection.find({"age": {$gt : "24"}}).pretty()
+db.newcollection.find({"age": {$gte : "24"}}).pretty()
+db.newcollection.find({"age": {$lt : "24"}}).pretty()
+db.newcollection.find({"age": {$lte : "24"}}).pretty()
+db.newcollection.find({"age": {$ne : "24"}}).pretty()
+
+--------------------------------------
+class - 05 : >>(query document and or) 
+^^^^^^^^^^
+db.newcollection.find({$or : [{"age":"24","place":"madurai"}]}).pretty()
+db.newcollection.find({"name":"mohan" , $or : [{"age":"24","place":"tiruppur"}]}).pretty()
+
+--------------------------------------
+class - 06 : >>(update document)
+^^^^^^^^^^
+
+db.newcollection.find()
+
+>for single document update:
+db.newcollection.update(
+{"_id": ObjectId("653b5f71cf3580de9d3c5520")},{$set : {"name":"mohan"}}
+)
+
+>for multiple document update:
+db.employee.update(
+{"age":"24"},{$set : {"std":"employee"}},{mulit : true}
+)
+
+--------------------------------------
+class - 07 : >>(remove document) 
+^^^^^^^^^^
+>for single removal of document
+db.employee.remove({"_id": ObjectId("653b5f71cf3580de9d3c5520")})
+
+>for multiple removal documents
+db.employee.remove({"age":"24"})
+
+--------------------------------------
+class - 08 : >>(projection) 
+^^^^^^^^^^
+>to get particular data
+db.newcollection.find({},{"name": 1 , "_id":0})
+
+--------------------------------------
+class - 09 : >>(sort,skip,limit)
+^^^^^^^^^^
+>to sort 
+db.important.find().sort({"name":1})
+db.important.find().sort({"name":-1})
+
+>to skip
+db.important.find().sort(2)
+
+>to limit
+db.important.find().limit(4)
+
+-------------------------------------
+class - 10 : >>(indexing) 
+^^^^^^^^^^
+>to index
+db.important.findOne() --> alternative for index
+
+db.important.ensureIndex({"name":1})
+db.important.find({"_id":12})
+
+-------------------------------------
+class - 11 : >>(Aggregation)
+^^^^^^^^^^
+> to aggregate the value
+db.newcollection.aggregate([{$group : {_id : "$gender" , MyResult :{$sum : 1}}}])
+
+-------------------------------------
+class - 12 : >>(restore and backup)
+^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

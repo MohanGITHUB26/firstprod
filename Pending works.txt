@@ -1,0 +1,170 @@
+completed task:
+---------------
+-->>3.11.2023<<-
+1. updated furniture website first update
+2. Updated furniture website second update(responsive)
+3. Updated shopping website
+
+-->>4.11.2023<<-update shopping website
+1. updated academy website -- courses and index pages.
+2. updated furniture website -- responsive 
+3. updated furniture website -- second update
+
+-->>6.11.2023<<--
+1. Created instance for mojoadz website , apply ssl certificate and DNS for the website.
+
+-->>7.11.2023<<--
+1. Hosted mojoadz.com website
+2. Hosted hotel website (php website) of manoj 
+3. Updated mojoadz website of aadhi -- responsive 
+3. Updated tiles website of harish -- responsive
+
+-->>8.11.2023<<--
+1. Updated hotel website second update
+2. Updated tiles webite -- responsive
+
+-->>9.11.2023<<--
+1. R&D on react js website
+
+-->>10.11.2023<<--
+1. Updated mojoadz website 
+
+-->>15.11.2023<<--
+1. Updated Mojoadz website
+2. Created zoho admin mail account for mojoadz.com
+3. Hosted php website(Hrm)-- manoj
+4. Updated tiles website -- RESPONSIVE
+
+-->>16.11.2023<<--
+1. Updated Mojoadz website by updating footer and scroll image
+2. Updated redotacademy website by deploying course source code
+3. Make R&D on react website
+
+-->>17.11.2023<<--
+1. To update academy website by deploying course file in instance.  
+
+-->>21.11.2023<<--
+1. two updates in redot solutions website by adding metadata to    it.
+
+-->>22.11.2023<<--
+1. updated redotsolutions website
+2. uploaded robots.txt file
+3. Viewed website provider's Namecheap, infinityfree and           bluehost.
+
+-->>24.11.2023<<--
+1. to ensure the Namecheap website provider for cost, multiple website hosting and multiple disk storage. -- 1 hr
+2. to deploy any website source code.
+3. to conduct linux commands class(5 commands). -- 45 mins
+4. to learn 4 video about kubernetes. -- 1 hr
+5. to practise docker commands. -- 45 mins
+
+-->>25.11.2023<<--
+1. to deploy the sql source code in RedotAcademy website 
+
+-->>27.11.2023<<--
+1. Updated Mojoadz website
+2. changed the DNS TXT files in Mojoadz website
+3. Updated Hrm website - changed few files source code
+
+-->>28.11.2023<<--
+1. Created GITHUB account for academy students
+2. Updated redotacademy website by deploying header file of website 
+3. Updated redotsolutions website by deploying few page changes source code 
+4.updated mojoadz website by deploying
+
+-->>29.11.2023<<--
+1. Updated redotacademy website by uploading front-end and back-end files.
+2. Updated redotacademy website by uploading front-end files
+3. Updated redotsolutions website by uploading vertical of services.
+
+-->>30.11.2023<<--
+1. Updated redotacademy website by uploading Admin folder files.
+2. Uploading front end pages , video and images in redotacademy.
+3. Uploaded few pages in redotsolutions website.
+
+-->>1.12.2023<<--
+1. Update redotacademy website by uploading backend pages.
+2. Hosted new website (redotlead)
+
+-->>4.12.2023<<--
+1. TO START NAMECHEAP REGISTRATION 
+2. TO HOST REACTjs WEBSITE IN AWS
+
+-->>4.12.2023<<--
+1. Deployed project Achieve pages in mojoadz website
+2. Deployed contact and about page in redotacademy website
+3. Deployed testionials in redotacademy website
+
+-->>5.12.2023<<--
+1. Deployed contact, index and videos files and folders in redotacademy website.
+2. Created NameCheap website provider 
+3. Deployed file changes in Mojoadz website
+4. Deployed files changes in redotsolution website
+
+-->>6.12.2023<<--
+1. Updated Mojoadz website by deploying few changes in it.
+
+-->>7.12.2023<<--
+1. Updated Mojoadz websites by changing some files and added few images.
+2. Contact a zoho mail support customer care but there is no response.
+
+-->>8.12.2023<<--
+1. Created zoho business mail account nad pointed records in AWS DNS services.
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

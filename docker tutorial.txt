@@ -1,0 +1,19 @@
+Containerization:
+-----------------
+-> Light in wieght (due to they have minimum operating system)
+-> It was isolated area where it has application + libraries + system dependencies
+-> containers are easy to ship and deploy 
+
+what is life cycle of docker and container?
+-> Docker file (to build)-> docker image(to run) -> docker container
+
+if docker engine goes down then docker container will not work
+-> docker is container and container is a concept that implemented  in docker
+
+Terminology:
+docker daemon
+docker client 
+docker registry(docker hub) - sharing the docker image or storing the images
+
+
+ 

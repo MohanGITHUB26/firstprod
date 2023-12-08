@@ -1,0 +1,197 @@
+1). To install Node Version Manager (NVM) on an AWS Linux instance:
+
+Step 1: Install nvm
+^^^^^^^
+Download and Install NVM:
+-------------------------
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+Activate NVM:
+-------------
+source ~/.bashrc
+
+Verify NVM Installation:
+------------------------
+nvm --version
+
+Step 2: Install Node.js using nvm:-
+^^^^^^^
+nvm install node
+nvm install 16.0.0
+
+Step 3: Use the Installed Version of Node.js
+^^^^^^^
+nvm use node
+nvm use 16.0.0
+
+Step 4: Verify the Installation
+^^^^^^^
+node -v
+
+
+
+
+2). To install MongoDb in AWS ec2 instance:
+
+step - 1 :Configure the package management system:
+^^^^^^^^
+Create a /etc/yum.repos.d/mongodb-org-7.0.repo file so that you can install MongoDB directly using yum:
+[mongodb-org-7.0]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/amazon/2023/mongodb-org/7.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-7.0.asc
+
+step - 2 : Install the MongoDB packages
+^^^^^^^^^^
+sudo yum install -y mongodb-org
+
+sudo yum install -y mongodb-org-7.0.3 mongodb-org-database-7.0.3 mongodb-org-server-7.0.3 mongodb-mongosh-7.0.3 mongodb-org-mongos-7.0.3 mongodb-org-tools-7.0.3
+
+exclude=mongodb-org,mongodb-org-database,mongodb-org-server,mongodb-mongosh,mongodb-org-mongos,mongodb-org-tools
+
+step - 3 : start mongodb :
+^^^^^^^^^^
+sudo systemctl start mongod
+
+sudo systemctl daemon-reload
+
+step - 4 : Verify that MongoDB has started successfully:
+^^^^^^^^^^
+sudo systemctl status mongod
+
+sudo systemctl enable mongod
+
+
+
+
+3). To install git in instance:
+
+sudo yum update
+
+sudo yum install git
+
+git --version
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+
+
+
+4). To install backend dependencies and start a Node.js server on your AWS EC2 instance, you'll need to:
+
+step - 1 : Install Node.js Dependencies:
+^^^^^^^^^^
+Navigate to your backend project directory and install the required Node.js dependencies using npm:
+
+> cd /path/to/your/backend/project
+> npm install
+
+step - 2 : Start the Node.js Server:
+^^^^^^^^^^
+Start your Node.js server. Assuming your server is defined in a file named server.js or app.js, you can run:
+
+> node server.js
+
+step - 3 : Ensure Server Accessibility on Assigned Port:
+^^^^^^^^^^
+By default, Node.js servers usually run on port 3000. However, you might have specified a different port in your server configuration.
+Check the console logs after starting the server; it should indicate on which port your server is running. It might look like:
+
+>Server is running on port 3000
+
+Verify that the security group associated with your EC2 instance allows inbound traffic on the port your server is running. Go to the AWS EC2 console, 
+find your instance, and check its security group settings to ensure the configured port is open for inbound traffic.
+
+step - 4 : Access the Server:
+^^^^^^^^^^
+Use your EC2 instance's public IP address or public DNS along with the assigned port to access the server from a web browser or API testing tool.
+
+>http://your-ec2-public-ip:your-assigned-port
+
+Remember, after starting the server, the terminal session running the server will be occupied. You might consider using tools like pm2 or running the server in 
+the background using nohup to ensure it continues running after you disconnect from the SSH session. Also, setting up a reverse proxy like Nginx or using tools 
+like forever or pm2 for managing Node.js processes in production is advisable.
+
+
+
+
+5).how to install npm in aws linux2023
+
+step - 1 : Install Node.js
+^^^^^^^^^^
+
+>curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+>sudo yum install -y nodejs
+
+step - 2 : Verify npm Installation:
+^^^^^^^^^^
+
+>npm -v
+
+
+
+
+6).To install PM2 (Process Manager for Node.js applications) on an AWS Linux EC2 instance, you can use npm, the Node.js package manager, to install it globally. Here 
+   are the steps:
+
+step - 1 : Install PM2:
+^^^^^^^^^^
+
+>sudo npm install -g pm2
+
+step - 2 : Verify Installation:
+^^^^^^^^^^
+
+>pm2 -v
+
+step - 3 : Start Your Node.js Application with PM2:
+^^^^^^^^^^
+Navigate to your Node.js application directory containing your app.js or server.js.
+Use PM2 to start your Node.js application:
+
+>pm2 start app.js
+
+Replace app.js with the name of your application's entry point file.
+
+step - 4 : Manage Your Application with PM2:
+^^^^^^^^^^
+
+pm2 list: List all running processes managed by PM2.
+pm2 stop <app-name|id>: Stop a specific application by name or ID.
+pm2 restart <app-name|id>: Restart a specific application by name or ID.
+pm2 delete <app-name|id>: Delete a specific application from PM2
+
+step - 5 : Set PM2 to Start on Boot (Optional):
+^^^^^^^^^^
+To ensure PM2 starts your application on system boot, use the following command:
+
+> pm2 startup
+pm2 start --name genius_react npm -- start 
+
+/var/www/html/assets/css
+
+
+
+7). Install packages on server-side:
+
+cd <repo name>
+sudo npm install
+
+
+
+8). install packages on the client-side
+
+> cd <client-folder>
+> sudo npm install
+> sudo npm run build
+If you face any error in client permission denied error 
+
+> sudo chmod +x node_modules/.bin/react-scripts
+
+and start the build again
+
+> sudo npm start
+

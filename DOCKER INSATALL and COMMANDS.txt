@@ -1,0 +1,117 @@
+DOCKER INSTALL and COMMAND IN LINUX:
+
+$ sudo yum update -y * 
+
+$ sudo yum install docker -y * 
+
+$ sudo service docker start *
+
+$ sudo service docker status * 
+
+$ sudo su - 
+
+$ docker --version * --> to show docker version
+
+$ docker search <images name> *  --> to search images that avail in docker hub
+
+$ docker pull <images name> *  --> to pull images from docker hub
+
+$ docker images * --> to show pulled images
+
+$ docker ps *  --> to show container that are running and up state
+
+$ docker stop <container name or id> * --> to stop containers
+
+$ docker rm <container name or id> * --> to remove container
+
+$ docker ps -a * --> to show running and exited cntainers
+
+$ docker rmi <image name or id> *  --> to remove images
+
+$ docker start <image name> * --> to start the existing containers
+
+$ docker stop <image name> * --> to stop the running containers
+
+$ docker run --name react -d -p 80:80 nginx:latest * --> to name the containers
+
+$ docker run -itd <image name> * --> to run container
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
